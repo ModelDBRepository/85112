@@ -1,0 +1,8 @@
+load_file("nrngui.hoc")
+load_file("simplecell.ses")
+load_file("inf_states.hoc")
+
+xpanel("buttons")
+xbutton("fig8","xopen(\"fig8.hoc\")")
+xbutton("EXIT","quit()")
+xpanel()
